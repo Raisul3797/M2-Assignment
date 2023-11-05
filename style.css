@@ -1,4 +1,4 @@
-header{
+header, footer{
     width: 1100px;
     margin: 0 auto;
     /* background-color: bisque; */
@@ -29,8 +29,10 @@ header{
  }
  .header-contents{
     padding-left: 10px;
-    width: 582px;
-    
+    width: 582px;    
+ }
+ .fa-arrow-right{
+   background-color: transparent;
  }
  .header-img{
     margin: 0 auto;
@@ -48,6 +50,15 @@ header{
     padding: 5px 10px;
     border: none;
     border-radius: 15px;
+ }
+ .see-more-btn{
+   position: relative;
+   right: -630px;
+   color: rgba(224, 44, 109, 1);
+   background-color: transparent;
+   border: none;
+   width: 50%;
+   margin-bottom: 50px;
  }
  .logos{
     border: 1px solid gray;
@@ -72,11 +83,50 @@ header{
    
  }
  .card{
-   box-shadow: 1px 0 1px 1px;
+   box-shadow: 1px 1px 1px 1px;
    padding-left: 5px;
    border-radius: 3px;
  }
  .card img{
    width: 93%;
-   margin: 5px 0 5px 5px;
+   padding: 10px 0 5px 5px;
+ }
+
+ .rating, .card-description{
+   /* font-weight: 800; */
+   font-size: 15px;
+ }
+ .features{
+   display: flex;
+   align-items: center;
+   margin: 0 auto;
+   width: 800px;
+   gap: 30px;
+ }
+ .features-para{
+   font-size: 15px;
+ }
+
+ /* Footer styles */
+ footer{
+   background-color: rgb(11, 13, 72);
+   margin-top: 50px;
+   color: white;
+ }
+ .footer-container{
+   width: 260px;
+   margin: 0 auto;
+   padding: 10px;
+   /* gap: 20px; */
+ }
+ .footer-para{
+   font-size: 15px;
+ }
+ .footer-title, .footer-para{
+   text-align: center;
+ }
+ .icons{
+   display: flex;
+   justify-content: space-evenly;
+
  }
