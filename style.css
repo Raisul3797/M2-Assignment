@@ -9,6 +9,8 @@ header, footer{
  nav{
     display: flex;
     justify-content: space-between;
+    background-color: bisque;
+    margin-bottom: 20px;
  }
  .navigation ul{
     display: flex;
@@ -41,7 +43,7 @@ header, footer{
     padding-left: 10px;
  }
  .header-img img{
-    width: 240px;
+   width: 240px;
     height: 214px;
  }
  .header-btn{

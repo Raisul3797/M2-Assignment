@@ -28,6 +28,10 @@
         width: 400px;
         
     }
+    .header-btn{
+        position: relative;
+        right: -140px;
+    }
     .header-img{
         background-image: none;
     }
